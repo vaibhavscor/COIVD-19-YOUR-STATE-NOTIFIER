@@ -6,7 +6,7 @@ import json
 # function for shoing notification on windows 
 def notf(title,msg):
     notification.notify(
-        title = title, message = msg, app_icon = 'Your icon image  path image should be of .ico format', timeout = 15 ) 
+        title = title, message = msg, app_icon = 'Your icon image  path image should be of .ico format", timeout = 15 ) 
  
 
 
