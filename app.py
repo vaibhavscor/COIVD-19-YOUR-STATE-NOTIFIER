@@ -13,7 +13,7 @@ def notf(title,msg):
 
 if __name__ == "__main__":
     
-    url_slack = 'https://hooks.slack.com/services/ Your Web hooker slack channel id' # your slack channel id 
+    url_slack = 'https://hooks.slack.com/services/ 'Your Web hooker slack channel id' # your slack channel id 
     url = 'https://www.mohfw.gov.in'  # Govenment of india site for data scrapping 
     r  = requests.get(url).text
     soup = BeautifulSoup(r,'html')
